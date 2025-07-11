@@ -1,5 +1,5 @@
 xrun(64): 23.09-s006: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	23.09-s006: Started on Jul 11, 2025 at 14:17:48 PKT
+TOOL:	xrun(64)	23.09-s006: Started on Jul 11, 2025 at 17:04:17 PKT
 xrun
 	-f run.f
 		-64
@@ -194,9 +194,6 @@ xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-Recompiling... reason: file './wishbone_top.sv' is newer than expected.
-	expected: Fri Jul 11 14:16:18 2025
-	actual:   Fri Jul 11 14:17:46 2025
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
@@ -242,7 +239,6 @@ xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
 DEFINE std       ./STD
 |
 xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
@@ -288,51 +284,12 @@ xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cd
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE std       ./STD
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
-DEFINE synopsys  ./SYNOPSYS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
-DEFINE ieee      ./IEEE
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
-DEFINE ambit     ./AMBIT
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
-DEFINE vital_memory ./VITAL_MEMORY
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
-DEFINE ncutils ./NCUTILS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
-DEFINE ncinternal ./NCINTERNAL
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
-DEFINE ncmodels ./NCMODELS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
-DEFINE xmutils ./XMUTILS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
-DEFINE xminternal ./XMINTERNAL
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
-DEFINE xmmodels ./XMMODELS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
-DEFINE cds_assertions ./CDS_ASSERTIONS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
-DEFINE cds_inhconn ./CDS_INHCONN
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
-DEFINE cds_spicelib ./CDS_SPICELIB
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
-DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
-|
-xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+file: ../sv/wb_pkg.sv
+package wb_pkg;
+             |
+xmvlog: *W,TSNSPK (../sv/wb_pkg.sv,1|13): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
+	package worklib.wb_pkg:sv
+		errors: 0, warnings: 1
 file: wishbone_top.sv
 	module worklib.top:sv
 		errors: 0, warnings: 0
@@ -529,21 +486,31 @@ xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14):
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-		worklib.top:sv <0x7e314e7f>
-			streams:  41, words: 26805
+		worklib.top:sv <0x7ee51447>
+			streams:  46, words: 39324
+		worklib.wb_pkg:sv <0x5cd3b4d2>
+			streams: 447, words: 503071
+		worklib.cdns_uvm_pkg:sv <0x4abe95d2>
+			streams: 172, words: 275996
+		worklib.cdns_uvmapi:svp <0x50f5ed43>
+			streams:  27, words: 30300
+		worklib.cdns_assert2uvm_pkg:sv <0x53831346>
+			streams:   3, words:  1763
+		worklib.uvm_pkg:sv <0x21588dbb>
+			streams: 4535, words: 7087218
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                       Instances  Unique
 		Modules:                       1       1
 		Verilog packages:              5       5
-		Registers:                 13001   10074
+		Registers:                 13790   10191
 		Named events:                  4      12
-		Initial blocks:              258     148
+		Initial blocks:              283     155
 		Parallel blocks:              26      27
 		Assertions:                    2       2
-		SV Class declarations:       192     306
-		SV Class specializations:    343     343
+		SV Class declarations:       199     313
+		SV Class specializations:    378     378
 	Writing initial simulation snapshot: worklib.top:sv
 DEFINE std       ./STD
 |
@@ -619,7 +586,7 @@ Generating 5 random packets
 --------------------------------
 Name      Type       Size  Value
 --------------------------------
-Packet-0  wb_packet  -     @2582
+Packet-0  wb_packet  -     @2611
   cyc_i   integral   1     'h0  
   stb_i   integral   1     'h0  
   we_i    integral   1     'h0  
@@ -633,7 +600,7 @@ Packet-0  wb_packet  -     @2582
 --------------------------------
 Name      Type       Size  Value
 --------------------------------
-Packet-1  wb_packet  -     @2650
+Packet-1  wb_packet  -     @2679
   cyc_i   integral   1     'h0  
   stb_i   integral   1     'h0  
   we_i    integral   1     'h0  
@@ -647,7 +614,7 @@ Packet-1  wb_packet  -     @2650
 --------------------------------
 Name      Type       Size  Value
 --------------------------------
-Packet-2  wb_packet  -     @2600
+Packet-2  wb_packet  -     @2629
   cyc_i   integral   1     'h0  
   stb_i   integral   1     'h0  
   we_i    integral   1     'h0  
@@ -661,7 +628,7 @@ Packet-2  wb_packet  -     @2600
 --------------------------------
 Name      Type       Size  Value
 --------------------------------
-Packet-3  wb_packet  -     @2649
+Packet-3  wb_packet  -     @2678
   cyc_i   integral   1     'h0  
   stb_i   integral   1     'h0  
   we_i    integral   1     'h0  
@@ -675,7 +642,7 @@ Packet-3  wb_packet  -     @2649
 --------------------------------
 Name      Type       Size  Value
 --------------------------------
-Packet-4  wb_packet  -     @2598
+Packet-4  wb_packet  -     @2627
   cyc_i   integral   1     'h0  
   stb_i   integral   1     'h0  
   we_i    integral   1     'h0  
@@ -687,13 +654,158 @@ Packet-4  wb_packet  -     @2598
   ack_o   integral   1     'h0  
 --------------------------------
 UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO wishbone_test_libs.sv(13) @ 0: uvm_test_top [base_test] [BASE TEST] BUILD PHASE EXECUTING!
+UVM_INFO wishbone_tb.sv(16) @ 0: uvm_test_top.tb [wishbone_tb] [ WISHBONE_TB ] Build Phase Executing!
 UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
-------------------------------------
-Name          Type       Size  Value
-------------------------------------
-uvm_test_top  base_test  -     @2642
-------------------------------------
+-----------------------------------------------------------------------
+Name                          Type                     Size  Value     
+-----------------------------------------------------------------------
+uvm_test_top                  base_test                -     @2671     
+  tb                          wishbone_tb              -     @2733     
+    env                       wb_master_env            -     @2708     
+      agent                   wb_master_agent          -     @2796     
+        driver                wb_master_driver         -     @2826     
+          rsp_port            uvm_analysis_port        -     @2965     
+            recording_detail  integral                 32    'd1       
+          seq_item_port       uvm_seq_item_pull_port   -     @2914     
+            recording_detail  integral                 32    'd1       
+          recording_detail    integral                 32    'd1       
+        monitor               wb_master_monitor        -     @2831     
+          recording_detail    integral                 32    'd1       
+        sequencer             wb_master_sequencer      -     @2944     
+          rsp_export          uvm_analysis_export      -     @3055     
+            recording_detail  integral                 32    'd1       
+          seq_item_export     uvm_seq_item_pull_imp    -     @3603     
+            recording_detail  integral                 32    'd1       
+          recording_detail    integral                 32    'd1       
+          arbitration_queue   array                    0     -         
+          lock_queue          array                    0     -         
+          num_last_reqs       integral                 32    'd1       
+          num_last_rsps       integral                 32    'd1       
+        is_active             uvm_active_passive_enum  1     UVM_ACTIVE
+        recording_detail      integral                 32    'd1       
+      recording_detail        integral                 32    'd1       
+    recording_detail          integral                 32    'd1       
+-----------------------------------------------------------------------
 
+UVM_INFO ../sv/wb_master_driver.sv(42) @ 0: uvm_test_top.tb.env.agent.driver [wb_master_driver] Running Simulation Driver!
+UVM_INFO ../sv/wb_master_monitor.sv(14) @ 0: uvm_test_top.tb.env.agent.monitor [wb_master_monitor] Running Simulation Monitor!
+UVM_INFO ../sv/wb_master_sequencer.sv(10) @ 0: uvm_test_top.tb.env.agent.sequencer [wb_master_sequencer] Running Simulation Sequencer!
+UVM_INFO ../sv/wb_master_agent.sv(31) @ 0: uvm_test_top.tb.env.agent [wb_master_agent] Running Simulation Agent!
+UVM_INFO ../sv/wb_master_env.sv(17) @ 0: uvm_test_top.tb.env [wb_master_env] Running Simulation Environment!
+UVM_INFO wishbone_tb.sv(22) @ 0: uvm_test_top.tb [wishbone_tb] Running Simulation Testbench!
+UVM_INFO wishbone_test_libs.sv(30) @ 0: uvm_test_top [base_test] Running Simulation Base Test!
+SDI/Verilog Transaction Recording Facility Version 23.09-s006
+UVM_INFO ../sv/wb_master_monitor.sv(9) @ 0: uvm_test_top.tb.env.agent.monitor [wb_master_monitor] Executing Monitor Run Phase!
+UVM_INFO ../sv/wb_master_seqs.sv(18) @ 0: uvm_test_top.tb.env.agent.sequencer@@wb_5_packets [wb_5_packets] raise objection
+UVM_INFO ../sv/wb_master_seqs.sv(47) @ 0: uvm_test_top.tb.env.agent.sequencer@@wb_5_packets [wb_5_packets] Executing wb_5_packets sequence
+UVM_INFO ../sv/wb_master_driver.sv(36) @ 0: uvm_test_top.tb.env.agent.driver [wb_master_driver] Packet is 
+------------------------------------------------------------------------------------------------
+Name                           Type       Size  Value                                           
+------------------------------------------------------------------------------------------------
+req                            wb_packet  -     @3705                                           
+  cyc_i                        integral   1     'h1                                             
+  stb_i                        integral   1     'h1                                             
+  we_i                         integral   1     'h0                                             
+  dat_i                        integral   8     'h4b                                            
+  adr_i                        integral   2     'h1                                             
+  op_e                         op_type_e  3     READ                                            
+  dat_o                        integral   8     'h0                                             
+  inta_o                       integral   1     'h0                                             
+  ack_o                        integral   1     'h0                                             
+  begin_time                   time       64    0                                               
+  depth                        int        32    'd2                                             
+  parent sequence (name)       string     12    wb_5_packets                                    
+  parent sequence (full name)  string     48    uvm_test_top.tb.env.agent.sequencer.wb_5_packets
+  sequencer                    string     35    uvm_test_top.tb.env.agent.sequencer             
+------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/wb_master_driver.sv(36) @ 10: uvm_test_top.tb.env.agent.driver [wb_master_driver] Packet is 
+------------------------------------------------------------------------------------------------
+Name                           Type       Size  Value                                           
+------------------------------------------------------------------------------------------------
+req                            wb_packet  -     @3786                                           
+  cyc_i                        integral   1     'h1                                             
+  stb_i                        integral   1     'h1                                             
+  we_i                         integral   1     'h0                                             
+  dat_i                        integral   8     'h2d                                            
+  adr_i                        integral   2     'h0                                             
+  op_e                         op_type_e  3     READ                                            
+  dat_o                        integral   8     'h0                                             
+  inta_o                       integral   1     'h0                                             
+  ack_o                        integral   1     'h0                                             
+  begin_time                   time       64    10                                              
+  depth                        int        32    'd2                                             
+  parent sequence (name)       string     12    wb_5_packets                                    
+  parent sequence (full name)  string     48    uvm_test_top.tb.env.agent.sequencer.wb_5_packets
+  sequencer                    string     35    uvm_test_top.tb.env.agent.sequencer             
+------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/wb_master_driver.sv(36) @ 20: uvm_test_top.tb.env.agent.driver [wb_master_driver] Packet is 
+------------------------------------------------------------------------------------------------
+Name                           Type       Size  Value                                           
+------------------------------------------------------------------------------------------------
+req                            wb_packet  -     @3810                                           
+  cyc_i                        integral   1     'h1                                             
+  stb_i                        integral   1     'h1                                             
+  we_i                         integral   1     'h1                                             
+  dat_i                        integral   8     'hc5                                            
+  adr_i                        integral   2     'h0                                             
+  op_e                         op_type_e  3     WRITE                                           
+  dat_o                        integral   8     'h0                                             
+  inta_o                       integral   1     'h0                                             
+  ack_o                        integral   1     'h0                                             
+  begin_time                   time       64    20                                              
+  depth                        int        32    'd2                                             
+  parent sequence (name)       string     12    wb_5_packets                                    
+  parent sequence (full name)  string     48    uvm_test_top.tb.env.agent.sequencer.wb_5_packets
+  sequencer                    string     35    uvm_test_top.tb.env.agent.sequencer             
+------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/wb_master_driver.sv(36) @ 30: uvm_test_top.tb.env.agent.driver [wb_master_driver] Packet is 
+------------------------------------------------------------------------------------------------
+Name                           Type       Size  Value                                           
+------------------------------------------------------------------------------------------------
+req                            wb_packet  -     @3768                                           
+  cyc_i                        integral   1     'h0                                             
+  stb_i                        integral   1     'h0                                             
+  we_i                         integral   1     'h0                                             
+  dat_i                        integral   8     'h80                                            
+  adr_i                        integral   2     'h1                                             
+  op_e                         op_type_e  3     IDLE                                            
+  dat_o                        integral   8     'h0                                             
+  inta_o                       integral   1     'h0                                             
+  ack_o                        integral   1     'h0                                             
+  begin_time                   time       64    30                                              
+  depth                        int        32    'd2                                             
+  parent sequence (name)       string     12    wb_5_packets                                    
+  parent sequence (full name)  string     48    uvm_test_top.tb.env.agent.sequencer.wb_5_packets
+  sequencer                    string     35    uvm_test_top.tb.env.agent.sequencer             
+------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/wb_master_driver.sv(36) @ 40: uvm_test_top.tb.env.agent.driver [wb_master_driver] Packet is 
+------------------------------------------------------------------------------------------------
+Name                           Type       Size  Value                                           
+------------------------------------------------------------------------------------------------
+req                            wb_packet  -     @3670                                           
+  cyc_i                        integral   1     'h0                                             
+  stb_i                        integral   1     'h0                                             
+  we_i                         integral   1     'h0                                             
+  dat_i                        integral   8     'h80                                            
+  adr_i                        integral   2     'h1                                             
+  op_e                         op_type_e  3     IDLE                                            
+  dat_o                        integral   8     'h0                                             
+  inta_o                       integral   1     'h0                                             
+  ack_o                        integral   1     'h0                                             
+  begin_time                   time       64    40                                              
+  depth                        int        32    'd2                                             
+  parent sequence (name)       string     12    wb_5_packets                                    
+  parent sequence (full name)  string     48    uvm_test_top.tb.env.agent.sequencer.wb_5_packets
+  sequencer                    string     35    uvm_test_top.tb.env.agent.sequencer             
+------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/wb_master_seqs.sv(32) @ 50: uvm_test_top.tb.env.agent.sequencer@@wb_5_packets [wb_5_packets] drop objection
+UVM_INFO /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 50: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
 
 --- UVM Report catcher Summary ---
 
@@ -708,14 +820,23 @@ Number of caught UVM_WARNING reports :    0
 --- UVM Report Summary ---
 
 ** Report counts by severity
-UVM_INFO :    2
+UVM_INFO :   21
 UVM_WARNING :    0
 UVM_ERROR :    0
 UVM_FATAL :    0
 ** Report counts by id
 [RNTST]     1
+[TEST_DONE]     1
 [UVMTOP]     1
-Simulation complete via $finish(1) at time 0 FS + 179
+[base_test]     2
+[wb_5_packets]     3
+[wb_master_agent]     1
+[wb_master_driver]     6
+[wb_master_env]     1
+[wb_master_monitor]     2
+[wb_master_sequencer]     1
+[wishbone_tb]     2
+Simulation complete via $finish(1) at time 50 NS + 49
 /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
 xcelium> exit
-TOOL:	xrun(64)	23.09-s006: Exiting on Jul 11, 2025 at 14:17:50 PKT  (total: 00:00:02)
+TOOL:	xrun(64)	23.09-s006: Exiting on Jul 11, 2025 at 17:04:21 PKT  (total: 00:00:04)

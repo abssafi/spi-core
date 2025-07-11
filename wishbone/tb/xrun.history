@@ -4,3 +4,14 @@ s3(11Jul2025:14:16:04):  xrun -f run.f -access +rwc
 s4(11Jul2025:14:16:19):  xrun -f run.f -access +rwc 
 s5(11Jul2025:14:17:10):  xrun -f run.f -access +rwc 
 s6(11Jul2025:14:17:48):  xrun -f run.f -access +rwc 
+s7(11Jul2025:16:52:28):  xrun -f run.f -access +rwc 
+s8(11Jul2025:16:52:54):  xrun -f run.f -access +rwc 
+s9(11Jul2025:16:53:51):  xrun -f run.f -access +rwc 
+s10(11Jul2025:16:54:57):  xrun -f run.f -access +rwc 
+s11(11Jul2025:16:55:10):  xrun -f run.f -access +rwc 
+s12(11Jul2025:16:55:18):  xrun -f run.f -access +rwc 
+s13(11Jul2025:17:00:05):  xrun -f run.f -access +rwc 
+s14(11Jul2025:17:01:33):  xrun -f run.f -access +rwc 
+s15(11Jul2025:17:03:13):  xrun -f run.f -access +rwc 
+s16(11Jul2025:17:03:45):  xrun -f run.f -access +rwc 
+s17(11Jul2025:17:04:17):  xrun -f run.f -access +rwc 

@@ -25,3 +25,9 @@
 ./macros/uvm_deprecated_defines.svh
 ../sv/macros/uvm_deprecated_defines.svh
 ./wb_packet.sv
+./wb_master_monitor.sv
+./wb_master_sequencer.sv
+./wb_master_seqs.sv
+./wb_master_driver.sv
+./wb_master_agent.sv
+./wb_master_env.sv
