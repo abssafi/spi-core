@@ -1,0 +1,13 @@
+class wishbone_tb extends uvm_env;
+    `uvm_component_utils(wishbone_tb)
+
+    function new(string name, uvm_component parent);
+        super.new(name, parent);
+    endfunction : new
+
+    virtual function void build_phase(uvm_phase phase);
+        super.build_phase(phase);
+        `uvm_info(get_type_name(), $sformatf("[ WISHBONE_TB ] Build Phase Executing!"), UVM_HIGH)
+    endfunction : build_phase
+
+endclass: wishbone_tb
