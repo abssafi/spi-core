@@ -13,4 +13,5 @@ class wb_master_monitor extends superClass;
         super.start_of_simulation_phase(phase);
         `uvm_info(get_type_name(), "Running Simulation Monitor!", UVM_HIGH)
     endfunction : start_of_simulation_phase
+    
 endclass : wb_master_monitor
